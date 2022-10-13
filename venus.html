@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- ==== CSS ==== -->
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/d71051032c.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- ==== NAV ==== -->
+    <nav>
+        <div class="navigation">
+            <div class="logo">
+                <i class="fa-solid fa-cloud-sun"></i>
+            </div>
+            <div class="menu">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <button class="hamburguer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="nav__links">
+                <a href="./index.html">MERCURIO</a>
+                <a href="./venus.html">VENUS</a>
+                <a href="./tierra.html">TIERRA</a>
+                <a href="./marte.html">MARTE</a>
+                <a href="./jupiter.html">JUPITER</a>
+                <a href="./saturno.html">SATURNO</a>
+                <a href="./urano.html">URANO</a>
+                <a href="./neptuno.html">NEPTUNO</a>
+            </div>
+        </div>
+    </nav>
+    <!-- ==== NAV END ==== -->
+
+    <!-- ==== HEADER  ==== -->
+    <header>
+        <div class="planet" data-aos="fade-up" data-aos-duration="1000">
+            <img src="./images/venus-1.png" alt="" />
+        </div>
+        <h1 class="title" data-aos="fade-up" data-aos-duration="2000">VENUS</h1>
+    </header>
+    <!-- ==== HEADER END ==== -->
+
+    <!-- ==== IMFORMATION ==== -->
+    <div class="container__info">
+        <div class="asteroide">
+            <img src="./images/asteroide.png" alt="">
+        </div>
+
+        <button class="btn" data-aos="fade-up" data-aos-duration="3000">LEER MÁS</button>
+
+        <div class="date__info">
+            <!-- -- DATE 1 -- -->
+            <div class="eje__rotate" data-aos="fade-up" data-aos-duration="2000">
+                <h2> 847℉ (453℃)</h2>
+                <span>TEMPERATURA MEDIA</span>
+            </div>
+            <!-- -- DATE 2 -- -->
+            <div class="eje__rotate" data-aos="fade-up" data-aos-duration="3000">
+                <h2>108 millones de Km</h2>
+                <span>DISTANCIA DEL SOL</span>
+            </div>
+            <!-- -- DATE 3 -- -->
+            <div class="eje__rotate" data-aos="fade-up" data-aos-duration="3000">
+                <h2>12.104 Km</h2>
+                <span>DIÁMETRO</span>
+            </div>
+        </div>
+    </div>
+    <!-- ==== IMFORMATION END ==== -->
+
+    <!-- ==== CARDS ==== -->
+    <main>
+        <section class="container__cards">
+            <!-- --- CARD  --- -->
+            <div class="card">
+                <div class="picture__card">
+                    <img src="https://estaticos.muyinteresante.es/uploads/images/gallery/5f1832375cafe83edae8ae38/venus0.jpg"
+                        alt="">
+                </div>
+                <div class="info__card">
+                    <h1>DESCRIPCIÓN</h1>
+                    <p>Aunque Venus no es el planeta más cercano al Sol, es el más caliente. Tiene una atmósfera densa,
+                        llena de dióxido de carbono, que provoca el efecto invernadero, y de nubes compuestas de ácido
+                        sulfúrico. Los gases atrapan el calor y mantienen a Venus bien calentito. De hecho, hace tanto
+                        calor en Venus que metales como el plomo serían charcos de metal fundido. Venus se ve como un
+                        planeta muy activo. Tiene montañas y volcanes. Venus es similar a la Tierra, en tamaño. La
+                        Tierra es solo un poco más grande. Venus es poco común porque gira en dirección contraria a la
+                        de la Tierra y la mayoría de los otros planetas. Y su rotación es muy lenta. Tarda alrededor de
+                        243 días terrestres en girar solo una vez. Debido a que está tan cerca del Sol, un año pasa muy
+                        rápido. Venus tarda 225 días terrestres en dar toda la vuelta alrededor del Sol. Esto significa
+                        que, en Venus, un día es un poco más largo que un año.
+                    </p>
+                    <button class="btn-close">REGRESAR</button>
+                </div>
+            </div>
+            <!-- --- CARD --- -->
+        </section>
+    </main>
+    <!-- ==== CARDS END ==== -->
+
+    <!-- ==== SCRIPTS ==== -->
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
